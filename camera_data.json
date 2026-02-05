@@ -1,0 +1,26 @@
+{
+    "camera1": {
+        "camera": "sony",
+        "use_case": ["jacket", "helmet"],
+        "video_path": "C:\\Users\\sravs\\Downloads\\vedanta\\cam_data\\jacket_helmet.mp4",
+        "camera_id": "1"
+    },
+    "camera2": {
+        "camera": "pansonic",
+        "use_case": ["fire", "smoke"],
+        "video_path": "C:\\Users\\sravs\\Downloads\\vedanta\\cam_data\\fire-smoke-video.mp4",
+        "camera_id": "2"
+    },
+    "camera3": {
+        "camera": "canon",
+        "use_case": ["car", "truck"],
+        "video_path": "C:\\Users\\sravs\\Downloads\\vedanta\\cam_data\\car&truck.mp4",
+        "camera_id": "3"
+    },
+    "camera4": {
+        "camera": "samsung",
+        "use_case": ["person"],
+        "video_path": "C:\\Users\\sravs\\Downloads\\vedanta\\cam_data\\person.mp4",
+        "camera_id": "4"
+    }
+}
