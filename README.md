@@ -1,4 +1,4 @@
-# ROI-Generation-using-Computer-Vision-and-RabbitMQ-
+# ROI-Generation-using-Computer-Vision-and-RabbitMQ
 📌 Project Overview
 
 This project implements a real-time, distributed computer vision pipeline that detects and segments objects from multiple video streams while focusing only on meaningful regions of each frame using a Region of Interest (ROI) strategy.
