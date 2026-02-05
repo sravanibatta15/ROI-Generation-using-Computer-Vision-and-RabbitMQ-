@@ -37,21 +37,21 @@ Scalability
 
 
 🧩 Tech Stack
-Component	Technology
+Component -	Technology
 
-Language	Python
+Language -	Python
 
-CV Framework	OpenCV
+CV Framework -	OpenCV
 
-DL Model	YOLOv7
+DL Model -	YOLOv7
 
-Messaging	RabbitMQ
+Messaging	- RabbitMQ
 
-Storage	        Redis
+Storage - Redis
 
-Processing	Multiprocessing + Multithreading
+Processing -	Multiprocessing + Multithreading
 
-Inference	PyTorch
+Inference	- PyTorch
 
 
 🎯 Object Classes Trained
@@ -160,6 +160,7 @@ The modular design allows:
 🙋‍♀️ Author
 
 B. Siva Sai Sravani
+
 🎓 Data Science / AI-ML Engineer
 
 📫 Email: sivasaisravani@gmail.com
