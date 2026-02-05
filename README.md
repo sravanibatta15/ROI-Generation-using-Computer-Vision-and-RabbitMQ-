@@ -4,10 +4,15 @@
 This project implements a real-time, distributed computer vision pipeline that detects and segments objects from multiple video streams while focusing only on meaningful regions of each frame using a Region of Interest (ROI) strategy.
 
 Instead of processing the entire frame, the system:
+
 ✔ Computes a fixed ROI on each camera feed
+
 ✔ Runs YOLOv7 only inside the ROI
+
 ✔ Filters irrelevant detections
+
 ✔ Stores results in Redis
+
 ✔ Uses RabbitMQ to decouple system components
 
 This design improves:
