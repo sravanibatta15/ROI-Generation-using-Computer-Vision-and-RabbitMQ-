@@ -12,11 +12,11 @@ Instead of processing the entire frame, the system:
 
 This design improves:
 
-⚡ Speed
+Speed
 
-🎯 Accuracy
+Accuracy
 
-🔁 Scalability
+Scalability
 
 🧠 Key Features
 
@@ -34,44 +34,23 @@ This design improves:
 
 ✅ Modular & scalable architecture
 
-🏗️ System Architecture
 
-Pipeline Flow:
-
-Camera / Video Stream
-        │
-        ▼
- Frame Capture (OpenCV)
-        │
-        ▼
-   RabbitMQ (frame_queue)
-        │
-        ▼
-  Detection Consumer (YOLOv7)
-        │
-        ▼
- ROI Detection Filter
-        │
-        ▼
-   Redis DB1 (ROI Detections)
-        │
-        ▼
- Segmentation Consumer (YOLOv7-Seg)
-        │
-        ▼
- ROI Segmentation Filter
-        │
-        ▼
-   Redis DB2 (ROI Segmentations)
 
 🧩 Tech Stack
 Component	Technology
+
 Language	Python
+
 CV Framework	OpenCV
+
 DL Model	YOLOv7
+
 Messaging	RabbitMQ
-Storage	Redis
+
+Storage	        Redis
+
 Processing	Multiprocessing + Multithreading
+
 Inference	PyTorch
 
 
@@ -91,21 +70,20 @@ Fire
 
 Smoke
 
-🧪 Dataset & Training
+ Dataset & Training
 
-📸 Total Images: 3,500
+ Total Images: 3,500
 
-🏷️ Annotation Tool: LabelImg
+ Annotation Tool: LabelImg
 
-🧠 Model: YOLOv7
+ Model: YOLOv7
 
 🎯 Output: best.pt trained weights
 
 YOLO Format:
 
 <class_id> <x_center> <y_center> <width> <height>
-
-🔁 How the System Works (End-to-End)
+How the System Works (End-to-End)
 1️⃣ Frame Capture
 
 Reads frames from video streams using OpenCV.
@@ -159,15 +137,15 @@ Real-time display & Redis storage
 
 📈 Use Cases
 
-🛣️ Traffic Monitoring
+Traffic Monitoring
 
-🏭 Industrial Safety
+Industrial Safety
 
-🔥 Fire & Smoke Detection
+Fire & Smoke Detection
 
-👷 PPE Compliance (Helmet/Jacket)
+PPE Compliance (Helmet/Jacket)
 
-🎥 Smart Surveillance
+Smart Surveillance
 
 🧾 Conclusion
 
@@ -183,6 +161,9 @@ The modular design allows:
 
 B. Siva Sai Sravani
 🎓 Data Science / AI-ML Engineer
+
 📫 Email: sivasaisravani@gmail.com
+
 🔗 GitHub: https://github.com/sravanibatta15
+
 🔗 LinkedIn: https://www.linkedin.com/in/siva-sai-sravani/
